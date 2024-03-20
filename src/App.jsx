@@ -17,14 +17,17 @@ const Informacoes = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
 `
 
 const Patrocinadores = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
+  height: 50vh;
+`
+const Imagens = styled.img`
+  width: 35vh;
 `
 
 function App() {
@@ -57,15 +60,15 @@ useEffect(() => {
       <GlobalStyle />
 
       <Informacoes>
-        <img src={marca} alt="Logo VainaWeb" />
+        <Imagens src={marca} alt="Logo VainaWeb" />
         <h2>PATROCINADORA OFICIAL DO CICLO "TALENTO DIGITAIS DA ESCOLA VAINA WEB"</h2>
       </Informacoes>
 
 
       <Patrocinadores>
-        <img onClick={() => { setMarca(Amazon) }} src={Amazon} alt="" />
-        <img onClick={() => { setMarca(VainaWeb) }} src={VainaWeb} alt="" />
-        <img onClick={() => { setMarca(SirioLibanes) }} src={SirioLibanes} alt="" />
+        <Imagens onClick={() => { setMarca(Amazon) }} src={Amazon} alt="" />
+        <Imagens onClick={() => { setMarca(VainaWeb) }} src={VainaWeb} alt="" />
+        <Imagens onClick={() => { setMarca(SirioLibanes) }} src={SirioLibanes} alt="" />
       </Patrocinadores>
     </sectionPai>
   )
