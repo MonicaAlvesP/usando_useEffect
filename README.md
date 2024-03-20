@@ -1,10 +1,4 @@
-# React + Vite
+# Usando Hook useEffect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# usando-_useEffect
-# usando-_useEffect
+Ao criar essas interfaces, você pode precisar executar efeitos colaterais, como buscar dados de uma API, assinar eventos ou manipular o DOM.
+O useEffect nos permite lidar com efeitos colaterais de uma forma declarativa e eficente, garantindo que sua interface de usuário permaneça responsiva e atualizada.
